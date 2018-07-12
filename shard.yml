@@ -1,5 +1,8 @@
 name: cronus
-version: 0.1.0
+version: 0.1
+
+description:
+  A Date library for Crystal
 
 authors:
   - Alistair A. Israel <aisrael@gmail.com>
