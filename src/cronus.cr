@@ -1,6 +1,6 @@
-require "./cronus/*"
-
-# TODO: Write documentation for `Cronus`
+# Cronus is the Greek god of time
 module Cronus
-  # TODO: Put your code here
+  VERSION = {{ `cat ./shard.yml|awk '/^version:/ {print $2}'`.stringify }}
 end
+
+require "./cronus/*"
